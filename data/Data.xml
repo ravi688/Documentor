@@ -78,9 +78,18 @@ struct Page
 
 
 <Page>
-	<label>Architecture</label>/
+	<label>Architecture</label>
 	<header>About Architecture</header>
 	<content>
 Architecture is a structure of monuments and building etc.
+	</content>
+</Page>
+
+
+<Page>
+	<label>Satec Technologies</label>
+	<header>Hello World!</header>
+	<content>
+Best Company to work for!
 	</content>
 </Page>
