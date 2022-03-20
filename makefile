@@ -17,8 +17,8 @@ DYNAMIC_LIB_NAME = documentor.dll
 EXECUTABLE_NAME = main.exe
 EXTERNAL_INCLUDES = `pkg-config --cflags-only-I gtk+-3.0`
 EXTERNAL_LIBS = `pkg-config --libs gtk+-3.0`
-DEPENDENCIES = #CallTrace
-DEPENDENCY_LIBS = #CallTrace/lib/calltrace.a
+DEPENDENCIES = BufferLib BufferLib/dependencies/CallTrace
+DEPENDENCY_LIBS = BufferLib/lib/bufferlib.a BufferLib/dependencies/CallTrace/lib/calltrace.a
 DEPENDENCIES_DIR = ./dependencies
 SHARED_DEPENDENCIES = #CallTrace
 SHARED_DEPENDENCY_LIBS = #CallTrace/lib/calltrace.a
@@ -222,8 +222,7 @@ bin-clean:
 	rm $(subst /,\, $(TARGET_DYNAMIC_IMPORT_LIB))
 	rmdir $(subst /,\, $(TARGET_LIB_DIR))
 	@echo [Log] Binaries cleaned successfully!
-# 	$(MAKE) --directory=./dependencies/CallTrace clean
-# 	$(MAKE) --directory=./shared-dependencies/CallTrace clean
+	$(MAKE) --directory=./dependencies/BufferLib clean
 # 	$(MAKE) --directory=./dependencies/Documentor clean
 # 	$(MAKE) --directory=../../shared-dependencies/Documentor clean
 #  	$(MAKE) --directory=./dependencies/tgc clean

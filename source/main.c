@@ -132,7 +132,7 @@ static void activate(GtkApplication* app, gpointer user_data)
 		Page* page = *((Page**)BUFgetptr_at(i)); 
 		free(page);
 	}
-	BUFfree(pages); 
+	BUFfree(); 
 
 	free(text_buffer);
 }
