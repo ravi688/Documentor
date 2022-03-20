@@ -1,0 +1,2 @@
+# Documentor
+Simple GTK Project
