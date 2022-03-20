@@ -1,0 +1,86 @@
+<Page>
+	<label>Laptops</label>
+	<header>WELCOM TO WORLD OF LAPTOPS</header>
+	<content>
+You can find any kind of laptop here!
+Also If you want to buy a used laptop, then this would be a great place for you!
+	</content>
+</Page>
+
+<Page>
+	<label>Overview</label>
+	<header>Overview</header>
+	<content>
+		This is all about overview
+	</content>
+</Page>
+
+<Page>
+	<label>User Interface</label>
+	<header>User Interface</header>
+	<content>
+		This is all about user interface
+	</content>
+</Page>
+
+<Page>
+	<label>HotKeys</label>
+	<header>Hot Keys</header>
+	<content>
+		This is all about hot keys: 
+		You can get any kind of key combination from here
+		Also you can create your own custom hotkeys for your own comfort!
+	</content>
+</Page>
+
+<Page>
+	<label>Getting Started</label>
+	<header>Getting Started</header>
+	<content>
+		First of all you have to read all the books given in below list: 
+		1. User Experience Design
+		2. Working with 2D mathematics
+		3. Working with 3D mathematics
+		4. Creating 3D models
+	</content>
+</Page>
+
+<Page>
+	<label>Scripting</label>
+	<header>Scripting for Beginners</header>
+	<content>		
+struct Page
+{
+	const char* content;
+	const char* header;
+	const char* label;;
+};
+	</content>
+</Page>
+
+<Page>
+	<label>Archana</label>
+	<header>ABOUT ARCHANA SINGH</header>
+	<content>
+		Archana is a bad girl
+		She likes to sleep for more than 12 hours a day
+	</content>
+</Page>
+
+<Page>
+	<label>Ravi Prakash Singh</label>
+	<header>ABOUT RAVI PRAKASH SINGH</header>
+	<content>
+		Ravi Prakash Singh is a Good body
+		He likes to work on Computer
+	</content>
+</Page>
+
+
+<Page>
+	<label>Architecture</label>/
+	<header>About Architecture</header>
+	<content>
+Architecture is a structure of monuments and building etc.
+	</content>
+</Page>

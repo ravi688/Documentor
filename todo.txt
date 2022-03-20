@@ -1,0 +1,16 @@
+TODO: Documentation Creator
+
+-> implement nice error handling interface.
+-> implement __calculate_property_addresses() function.
+
+Alpha Version: 
+Features: 
+	1. You create a simple documentation having as many pages as you want.
+	2. You have to just markup all the Data in a file named as "Data.doc" in the same directory you are running the application.
+	3. It will automatically load the Data.doc file and presents you very nice representation of your raw data.
+
+
+Beta Version: 
+Features: 
+	1. You can create your own data objects as many as you want.
+	2.  
